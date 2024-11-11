@@ -4,7 +4,6 @@ const button = document.querySelector("button");
 const breads = document.getElementById("breads");
 
 const base_url = "https://dog.ceo/api";
-
 const api = {
   list_all_breads: "/breeds/list/all",
   by_breed: "/breed/",
